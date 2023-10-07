@@ -10,39 +10,39 @@ Type your initials here to confirm you read the instructions:
 
 INSTRUCTOR EXAMPLE: What is a conditional statement?
 
-Your answer:
+Your answer: if else statments
 
-Researched answer:
+Researched answer: it allows you make decisons based on certain conditions 
 
 1. What is git? What is the difference between git and Github?
 
-Your answer:
+Your answer: github is a platform and git is local
 
-Researched answer:
+Researched answer: githuhb is a platform to help developers collaboarte on projects and git is the technology to track changes and manges your code 
 
 
 2. What is the difference between an array's index and its value?
 
-Your answer:
+Your answer:arrays index is the position in the array and the value is the value of that index
 
-Researched answer:
+Researched answer: an arrays index is a unique identifier in the array starting form 0 and the value is the actual item in the specific slot 
 
 3. Compare and contrast arrays and strings. Please include ways in which they are the same and ways in which they are different.
 
-Your answer:
+Your answer: an array can have diffrent types in it like strings and numbers while a string is a set of characters like "hello"
 
-Researched answer:
+Researched answer:arrays can store multiple values and even othervarrays  and have a flexible length, strings are used to represent text or a squence of characters both are used to store and organize data in programming 
 
 4. STRETCH: What are the four pillars of object oriented programming?
 
-Researched answer:
+Researched answer:encapsulation, inheritance, polymorphism, abstraction
 
 ## Looking Ahead: Terms for Next Week
 
 Research and define the following terms. Hint: use the syllabus!
 
-1. Higher Order Functions:
+1. Higher Order Functions: a function that can take one or more functions as arguments and treats functions as values allowing them to be manipulated and used as data 
 
-2. Jest:
+2. Jest:a Js testing framework used for testing JS code 
 
-3. Objects:
+3. Objects:data type that allows you to store and orgnaize data 

@@ -10,17 +10,16 @@
 // --------------------INSTRUCTOR EXAMPLE: Create a conditional statement that evaluates two strings and determines which of the strings has more characters. Use the two sets of test variables provided.
 
 // Set one:
-const fruit1 = "apple"
-const fruit2 = "banana"
+// const fruit1 = "apple"
+// const fruit2 = "banana"
 // Expected outcome: "banana"
 
 // Set two:
-// const fruit1 = "cherry"
-// const fruit2 = "kiwi"
+//  const fruit1 = "cherry"
+//  const fruit2 = "kiwi"
 // Expected outcome: "cherry"
 
 // Pseudo code:
-
 
 // --------------------1) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
@@ -29,6 +28,9 @@ const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // Expected output: 9
 
 // Pseudo code:
+//combining both arrays with a .concat
+
+console.log(padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns).length)
 
 // --------------------2) Create the code that will reverse the letters of a string using the test variable provided below.
 
@@ -36,6 +38,16 @@ const currentCohort = "LEARN 2023"
 // Expected output: "3202 NRAEL"
 
 // Pseudo code:
+//thought this would would work but came back undefined realizes .reverse can only used on arrays not strings
+//console.log(currentCohort.reverse)
+//so now im going to split the string then reverse it and join it back together
+var cohortarray = (currentCohort.split(""))
+cohortarray.reverse()
+console.log(cohortarray.join(""))
+//found out i can also do it all on one line 
+var myreversedstring = (currentCohort.split("").reverse().join(""))
+console.log(myreversedstring)
+
 
 // --------------------3) Create the code that will log only the odd numbers from the array using the test variable provided below.
 
@@ -43,3 +55,9 @@ const stockExchange = [13, 34, -4, 42, 5, -5, 10, 27, 42, 10]
 // Expected output: 13 5 -5 27
 
 // Pseudo code:
+//im trying to refrence my notes and get the correct code but im just not understanding and not sure if im even on the right track
+for(let i = 0; i < stockExchange.length; i++){
+if(stockExchange[count].length % 2 !== 0){
+}
+console.log(stockExchange[i])
+}
